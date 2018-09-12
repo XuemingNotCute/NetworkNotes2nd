@@ -84,7 +84,7 @@ A:
 - **逻辑地址**：发送方主机能够以多种方式学习到接收方的IP地址：比如域名系统（Domain Name System, DNS），或通过应用手动输入，如用户指定FTP地址。
 - **物理地址**：以太网MAC地址是怎么识别的呢？发送方主机使用地址解析协议（Address ResolutionProtocol, ARP）以检测本地网络的所有MAC地址。
 - **通过IP找MAC**：如图所示，发送主机在整个LAN发送ARP请求消息，这是一条广播消息。ARP请求包含目标设备的IP地址，LAN上的每一个设备都会检查该ARP请求，看看是否包含它自身的IP地址。只有符合该IP地址的设备才会发送ARP响应。ARP响应包含ARP请求中IP地址相对应的MAC地址。
-![Alt text](./1536766298492.png)
+![](https://raw.githubusercontent.com/XuemingNotCute/MarkdownPhotos/master/2.png)
 
 ## 访问远程资源
 
@@ -93,12 +93,12 @@ A:
 - 默认网关就是位于发送主机同一网络上的路由器的接口IP地址。有一点很重要：本地网络上的所有主机都能够配置自己的默认网关地址。
 - 如果该主机的TCP/IP设置中没有配置默认网关地址，或指定了错误的默认网关地址，则远端网络消息无法被送达。
 - 如下图所示，LAN上的主机PC 1使用IP地址为192.168.1.1的R1作为默认网关，如果PDU的目的地址位于另一个网络，则主机将PDU发送至路由器上的默认网关。
-![Alt text](./1536768128374.png)
+![](https://raw.githubusercontent.com/XuemingNotCute/MarkdownPhotos/master/3.png)
 
 
 
 下图显示了客户端主机PC 1与远端IP网络服务器进行通讯的网络层地址与数据链路层地址：
-![Alt text](./1536768400560.png)
+![](https://raw.githubusercontent.com/XuemingNotCute/MarkdownPhotos/master/4.png)
 
 ###网络地址
 - 当报文的发送方与接收方位于不同网络，源和目的IP地址将会代表不同网络上的主机。
