@@ -10,7 +10,7 @@
 
 就可以快速索引到某一章节啦！
 
-**Chrome 插件下载地址:** [Github Toc](https://chrome.google.com/webstore/detail/github-toc/nalkpgbfaadkpckoadhlkihofnbhfhek)
-不行就刷新一下哦~<br>
+**Chrome 插件下载地址:** [Github Toc](https://chrome.google.com/webstore/detail/github-toc/nalkpgbfaadkpckoadhlkihofnbhfhek)<br>
+装完插件如果还是不显示目录就刷新一下哦~<br>
 
 为我们的~~友谊~~(并没有)干杯！: :beer: :beer: :beer: :beer: :beer: :beer: :beer:
