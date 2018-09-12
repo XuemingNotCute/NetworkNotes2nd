@@ -60,7 +60,7 @@ A:
 
 网络层和数据链路层负责将数据从发送设备传输至接收设备。
 两层协议都有源地址和目的地址，但两种地址的目的不同。
-![Alt text](./1536764838403.png)
+![](https://raw.githubusercontent.com/XuemingNotCute/MarkdownPhotos/master/1.PNG)
 
 ###网络地址
 - 网络前缀+主机。
