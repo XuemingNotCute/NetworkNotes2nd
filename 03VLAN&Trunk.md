@@ -67,10 +67,10 @@ VLAN（virtual local area network）是**一组与位置无关的逻辑端口**�
 
 对之前的拓扑的改进包括：
 
--      PC 1和PC 2分配到192.168.1.0网段以及VLAN 2。
--         PC 3和PC 4分配到192.168.2.0网段以及VLAN 3。
--          路由器接口连接到VLAN 2和VLAN 3。
--          交换机间通过trunk线互连。
+- PC 1和PC 2分配到192.168.1.0网段以及VLAN 2。
+- PC 3和PC 4分配到192.168.2.0网段以及VLAN 3。
+- 路由器接口连接到VLAN 2和VLAN 3。
+- 交换机间通过trunk线互连。
 
 注意到trunk端口出现在VLAN 1，他们没有用字母T来标识。trunk在任何VLAN都没有成员。现在VLAN跨越多交换机，同一VLAN下的节点可以物理上位于任何地方。
 
