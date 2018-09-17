@@ -20,7 +20,7 @@ VLAN（virtual local area network）是**一组与位置无关的逻辑端口**�
 ![](https://raw.githubusercontent.com/XuemingNotCute/MarkdownPhotos/master/20.jpg)<br>
 
 另一种常用的拓扑结构`常见拓扑2`是两个交换机被一个路由器分离开来，如下图所示。<br>这种情况下，每台交换机各连接一组节点。<br>每个交换机上的各节点共享一个IP地址域，这里有两个网段：192.168.1.0和192.168.2.0。
-![](https://raw.githubusercontent.com/XuemingNotCute/MarkdownPhotos/master/21.png)
+![](https://raw.githubusercontent.com/XuemingNotCute/MarkdownPhotos/master/21.png)<br>
 注意到两台交换机的VLAN相同。<br>**非本地网络数据流必须经过路由器转发。**<br>路由器不会转发二层单播，多播以及广播帧。<br>这种拓扑逻辑在两个地方类似于多VLAN：同一VLAN下的节点共享一个通用地址域，非本地数据流（对应多VLAN情况不同VLAN的节点）需通过路由器转发。<br>在一台交换机上添加一个VLAN，去掉另一台交换机的话，结构如下所示：
 ![](https://raw.githubusercontent.com/XuemingNotCute/MarkdownPhotos/master/23.png)<br>
 
