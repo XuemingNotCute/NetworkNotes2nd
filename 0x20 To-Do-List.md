@@ -5,3 +5,4 @@
 5. MDN Javascript 看一遍
 6. [更新一下“会话劫持”的 wiki](https://zh.wikipedia.org/wiki/%E4%BC%9A%E8%AF%9D%E5%8A%AB%E6%8C%81)
 7. 好好搞一下博客
+8. [audit.log 的开启](http://blog.51cto.com/yibeishui/1891610)
